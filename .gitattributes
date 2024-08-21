@@ -1,0 +1,61 @@
+﻿# Treat all text files with Unix-style line endings (LF)
+* text=auto eol=lf
+
+# JavaScript files
+*.js text diff=javascript
+
+# Vue.js Single File Components
+*.vue text
+
+# Stylesheets
+*.css text
+*.scss text
+*.sass text
+*.less text
+
+# JSON files
+*.json text
+
+# Markup files
+*.html text
+*.xml text
+*.svg text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# Video files
+*.mp4 binary
+*.mov binary
+*.mkv binary
+*.webm binary
+
+# Archives
+*.zip binary
+*.tar.gz binary
+*.rar binary
+*.7z binary
+
+# Ignore lock files (they should not differ across OSs)
+package-lock.json -text
+yarn.lock -text
+bun.lockb -text
+
+# Markdown files
+*.md text
